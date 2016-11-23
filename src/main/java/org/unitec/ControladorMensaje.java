@@ -31,7 +31,7 @@ public class ControladorMensaje {
         return "Mensaje guardado con exito (owo)/";
         
     }
-    
+    /*
     @CrossOrigin
     @RequestMapping(value="/mensaje/{id}", method=MethodRequest.GET, headers={"Accept=application/json"})
     public String buscarPorID(@PathVariable Long id) throws Exception{
@@ -39,7 +39,7 @@ public class ControladorMensaje {
         ObjectMapper maper = new ObjectMapper();
         return maper.writeValueAsString(mensa);
     }
-    
+    */
     @CrossOrigin
     @RequestMapping(value="/mensaje", method=RequestMethod.GET, headers={"Accept=application/json"})
     public String buscarTodos()throws Exception{
