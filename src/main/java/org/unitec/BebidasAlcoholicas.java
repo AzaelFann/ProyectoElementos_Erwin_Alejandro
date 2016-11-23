@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class BebidasAlcoholicas implements TipoBebidas {
     
-    String nombre;
+    String     nombre;
     
    public String obtenerRecomendacion(){
         
